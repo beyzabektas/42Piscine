@@ -6,7 +6,7 @@
 /*   By: bebektas <bebektas@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/10 14:11:12 by bebektas          #+#    #+#             */
-/*   Updated: 2023/02/10 17:34:04 by bebektas         ###   ########.tr       */
+/*   Updated: 2023/02/28 12:19:45 by bbektas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,4 @@ void	ft_swap(int *a, int *b)
 	tmp = *a;
 	*a = *b;
 	*b = tmp;
-}
-#include <stdio.h>
-int main()
-{
-	int a = 1;
-	int b = 2;
-	ft_swap(&a,&b);
-	printf("%d %d",a,b);
 }

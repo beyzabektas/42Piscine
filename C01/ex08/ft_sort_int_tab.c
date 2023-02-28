@@ -6,7 +6,7 @@
 /*   By: bebektas <bebektas@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/10 16:49:13 by bebektas          #+#    #+#             */
-/*   Updated: 2023/02/10 19:00:43 by bebektas         ###   ########.tr       */
+/*   Updated: 2023/02/28 12:24:02 by bbektas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,11 +30,4 @@ void	ft_sort_int_tab(int *tab, int size)
 		}
 	size--;
 	}
-}
-#include <stdio.h>
-int main()
-{
-	int *tab = (int []){0,4,1,3};
-	ft_sort_int_tab(tab,4);
-	printf("%d %d %d %d",tab[0],tab[1],tab[2],tab[3]);
 }

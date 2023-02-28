@@ -6,7 +6,7 @@
 /*   By: bebektas <bebektas@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/10 14:18:02 by bebektas          #+#    #+#             */
-/*   Updated: 2023/02/10 18:15:29 by bebektas         ###   ########.tr       */
+/*   Updated: 2023/02/28 12:20:21 by bbektas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,14 +17,4 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 		*div = a / b;
 		*mod = a % b;
 	}
-}
-#include <stdio.h>
-int main()
-{
-	int c = 10;
-	int d = 5;
-	int div;
-	int mod;
-	ft_div_mod(c,d,&div,&mod);
-	printf("%d %d",div,mod);
 }

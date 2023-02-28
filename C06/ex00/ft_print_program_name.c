@@ -6,7 +6,7 @@
 /*   By: bebektas <bebektas@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/22 20:10:48 by bebektas          #+#    #+#             */
-/*   Updated: 2023/02/22 20:18:28 by bebektas         ###   ########.tr       */
+/*   Updated: 2023/02/24 17:41:41 by bebektas         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	main(int ac, char **av)
 	int	i;
 
 	i = 0;
-	while (av[0][i] != '\0')
+	while (av[0][i] != '\0' && ac)
 	{
 		write(1, &av[0][i], 1);
 		i++;

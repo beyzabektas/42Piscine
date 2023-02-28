@@ -6,13 +6,13 @@
 /*   By: bebektas <bebektas@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/18 05:45:42 by bebektas          #+#    #+#             */
-/*   Updated: 2023/02/18 17:44:40 by bebektas         ###   ########.tr       */
+/*   Updated: 2023/02/28 12:30:46 by bbektas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+unsigned int	ft_strlen(char *str)
 {
-	int	i;
+	unsigned int	i;
 
 	i = 0;
 	while (str[i] != '\0')
